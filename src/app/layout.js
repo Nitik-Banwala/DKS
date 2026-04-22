@@ -13,15 +13,14 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "D.K.S",
-  description: "Empowered by Culture Driven by Purpose",
+  title: "DKS Upholstery",
+  description: "Upholstery Services Trusted Across Singapore",
   openGraph: {
-    title: "D.K.S",
+    title: "DKS Upholstery",
     description: "Upholstery Services Trusted Across Singapore",
-   
+    images: ["/assets/image/meta.pngp"],
   },
 };
-
 export default function RootLayout({ children }) {
   return (
     <html
