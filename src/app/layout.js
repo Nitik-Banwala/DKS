@@ -18,7 +18,7 @@ export const metadata = {
   openGraph: {
     title: "DKS Upholstery",
     description: "Upholstery Services Trusted Across Singapore",
-    images: ["/assets/image/meta.pngp"],
+    images: ["public/meta.png"],
   },
 };
 export default function RootLayout({ children }) {
