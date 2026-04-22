@@ -20,7 +20,7 @@ const page = () => {
       <Hero />
       <Service/>
       <Businesses/>
-      {/* <After/> */}
+      <After/>
       <Transformations/>
       <Aboutus/>
       <Works/>

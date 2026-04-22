@@ -8,19 +8,13 @@ const Works = () => {
   return (
     <section className="w-full bg-[url('/assets/image/thirdbg.png')] bg-center bg-cover bg-no-repeat">
 
-      {/* ✅ Section spacing instead of fixed height */}
       <div className="py-14 md:py-25 lg:py-30 px-4">
-
-        {/* ✅ Main container (Figma fixed style) */}
         <div className="mx-auto w-full max-w-285 xl:max-w-[1200.1px]">
-
-          {/* ✅ Heading */}
           <div className="flex flex-col text-center items-center">
             <h2 className="text-2xl sm:text-3xl sm:text-4xl lg:text-5xl font-semibold leading-[120%]">
               How Our Upholstery{" "}
               <span className="text-[#19AE1A]">Service Works</span>
             </h2>
-
             <p className="max-w-[730px] mt-4 text-sm sm:text-base">
               Getting your sofa, chair, or cushions reupholstered in Singapore
               is simple. Here’s how our 3 step process makes it easy from start
@@ -28,7 +22,6 @@ const Works = () => {
             </p>
           </div>
 
-          {/* ✅ Steps */}
           <div className="flex flex-col items-center mt-10">
             {stepsdata.map((item, index) => (
               <div

@@ -15,7 +15,8 @@ const Hero = () => {
                                 src={"/assets/image/google.png"}
                                 alt='google'
                                 width={32}
-                                height={32} />
+                                height={32}
+                             />
                             <div className='-ml-8'>
                                 <Icons icon={"google"} />
                             </div>
@@ -56,7 +57,7 @@ const Hero = () => {
                                 alt='warranty'
                                 width={127}
                                 height={127}
-                                className='w-[80.1px] lg:w-[127.1px] h-auto'
+                                className='w-[80.1px] hidden min-[1117px]:flex lg:w-[127.1px] h-auto'
                             />
                         </div>
                     </div>

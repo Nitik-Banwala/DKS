@@ -5,10 +5,9 @@ const Transformations = () => {
   return (
     <div className="w-full bg-[url('/assets/image/custmerbg.png')] bg-center bg-no-repeat bg-cover">
 
-      {/* ✅ Section spacing instead of fixed height */}
       <div className="py-[120px] lg:py-[160px] xl:py-[200px]">
 
-        {/* ✅ Top Content */}
+
         <div className="mx-auto w-full max-w-[1140px] xl:max-w-[1200px] px-4 sm:px-6 lg:px-8 xl:px-0 flex flex-col lg:flex-row justify-between gap-6">
 
           <h2 className="max-w-[549px] text-3xl sm:text-4xl lg:text-5xl font-semibold leading-[120%]">

@@ -16,10 +16,10 @@ const Footer = () => {
       <div className="px-4 pt-[80px] sm:pt-[100px] lg:pt-[120px]">
         <div className="mx-auto w-full max-w-[1140px] xl:max-w-[1200px]">
 
-          {/* GRID */}
+
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
 
-            {/* LEFT */}
+
             <div className="lg:pr-10 border-b lg:border-b-0 lg:border-r border-[#01010129] pb-8 lg:pb-0">
 
               <Image
@@ -39,7 +39,7 @@ const Footer = () => {
 
               <div className="flex flex-col sm:flex-row gap-6">
 
-                {/* Address */}
+    
                 <div>
                   <div className="flex gap-2 items-start">
                     <Icons icon="location" />
@@ -50,7 +50,7 @@ const Footer = () => {
                     </p>
                   </div>
 
-                  {/* Social */}
+ 
                   <div className="flex items-center gap-4 mt-6">
                     <span className="flex items-center gap-2 font-semibold">
                       <Icons icon="follow" /> Follow Us
@@ -64,7 +64,7 @@ const Footer = () => {
                   </div>
                 </div>
 
-                {/* Contact */}
+
                 <div className="flex flex-col gap-3">
                   <div className="flex items-center gap-2">
                     <Icons icon="whatsappsm" />
@@ -88,10 +88,9 @@ const Footer = () => {
               </div>
             </div>
 
-            {/* RIGHT */}
+
             <div className="flex flex-col gap-6">
 
-              {/* NAV LINKS WITH LINES */}
               <div className="flex flex-wrap items-center gap-y-2">
                 {footernavlinks.map((link, index) => (
                   <React.Fragment key={index}>
@@ -113,7 +112,7 @@ const Footer = () => {
 
               <hr className="border-[#01010129]" />
 
-              {/* GALLERY */}
+
               <div className="flex flex-wrap gap-3">
                 {footergallery.map((item, index) => (
                   <div
@@ -133,7 +132,7 @@ const Footer = () => {
 
               <hr className="border-[#01010129]" />
 
-              {/* SERVICES WITH LINES */}
+
               <div className="flex flex-wrap items-center gap-y-2 text-sm sm:text-base">
 
                 <Link href="#">Reupholstery</Link>

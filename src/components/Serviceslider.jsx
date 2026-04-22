@@ -9,13 +9,13 @@ import { services } from "@/utils/helper";
 const ServiceSlider = () => {
   return (
     <div className="w-full max-w-6xl  mx-auto relative px-4 md:px-0">
-      <div className="custom-prev absolute left-0 md:-left-20 top-1/2 -translate-y-1/2 z-9 w-10 h-10 md:w-15 md:h-15 group hover:bg-[#19AE1A] bg-[#fafafa] rounded-full flex items-center justify-center cursor-pointer shadow-[1px_1px_6px_0px_#00000014]">
+      <div className="custom-prev absolute left-0 md:-left-20 top-1/2 -translate-y-1/2 z-9 w-10 h-10 md:w-15 md:h-15 group hover:bg-[#19AE1A] bg-[#fafafa] rounded-full xl:flex hidden  items-center justify-center cursor-pointer shadow-[1px_1px_6px_0px_#00000014]">
         <span className="text-white text-xl">
           <Icons icon={"prev"} pathClass={"group-hover:fill-[#FAFAFA]"} />
         </span>
       </div>
 
-      <div className="custom-next absolute right-0 md:-right-20 top-1/2 -translate-y-1/2 z-9 w-10 h-10 md:w-15 md:h-15 group hover:bg-[#19AE1A] bg-[#fafafa] rounded-full flex items-center justify-center cursor-pointer shadow-[1px_1px_6px_0px_#00000014]">
+      <div className="custom-next xl:flex hidden absolute right-0 md:-right-20 top-1/2 -translate-y-1/2 z-9 w-10 h-10 md:w-15 md:h-15 group hover:bg-[#19AE1A] bg-[#fafafa] rounded-full  items-center justify-center cursor-pointer shadow-[1px_1px_6px_0px_#00000014]">
         <span className="text-white text-xl">
           <Icons icon={"next"} pathClass={"group-hover:fill-[#FAFAFA]"} />
         </span>

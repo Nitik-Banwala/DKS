@@ -41,17 +41,6 @@ const Before = () => {
                   className="rounded-xl w-full object-cover"
                 />
               </div>
-
-              <div className="relative w-full">
-                <Image
-                  src={item.after}
-                  alt="after"
-                  width={558}
-                  height={339}
-                  className="rounded-xl w-full object-cover"
-                />
-              </div>
-
             </div>
           </SwiperSlide>
         ))}

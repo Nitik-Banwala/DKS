@@ -8,15 +8,13 @@ const TrustedExperts = () => {
       
       <div className="bg-[url('/assets/image/Cta.png')] bg-no-repeat bg-cover bg-center">
 
-        {/* ✅ Section spacing instead of fixed */}
+
         <div className="py-[80px] sm:py-[100px] lg:py-[120px] px-4">
 
-          {/* ✅ Centered fixed container (like Figma) */}
           <div className="mx-auto w-full max-w-[1140px] xl:max-w-[1200px] text-center">
 
             <div className="max-w-[795px] mx-auto">
 
-              {/* ✅ Responsive Heading */}
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold leading-[120%] text-[#010101]">
                 Your Trusted Upholstery{" "}
                 <span className="text-[#19AE1A]">Experts</span>
@@ -24,7 +22,7 @@ const TrustedExperts = () => {
                 <span className="text-[#19AE1A]">in Singapore</span>
               </h2>
 
-              {/* ✅ Responsive Paragraph */}
+      
               <p className="mt-4 sm:mt-6 text-sm sm:text-base leading-[160%] text-[#4D4D4D] max-w-[729px] mx-auto">
                 For over 18 years, we've perfected the art of upholstery. From
                 sofas and chairs to custom built panels and commercial projects,
