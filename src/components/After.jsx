@@ -1,6 +1,7 @@
 import React from "react";
 import Before from "./Before";
 import ServiceSlider from "./Serviceslider";
+import Button from "./common/Button";
 
 const After = () => {
   return (
@@ -20,9 +21,9 @@ const After = () => {
         </div>
         <div className="mt-8 md:mt-12.5 flex flex-col items-center justify-center">
           <Before />
-          <button className="w-42.25 h-12.5 text-center flex items-center justify-center bg-[#19AE1A] rounded-[245px] mt-7.5 text-[#FAFAFA] font-semibold text-base leading-[160%]">
-            See More Results
-          </button>
+          <Button
+          text={'See More Results'}
+           className="w-42.25 h-12.5 text-center hover:bg-[#FAFAFA] hover:border hover:border-[#19AE1A] hover:text-[#19AE1A] active:bg-[#19AE1A] active:text-white flex items-center cursor-pointer justify-center bg-[#19AE1A] rounded-[245px] mt-7.5 text-[#FAFAFA] font-semibold text-base leading-[160%]"/>
         </div>
         <div className="w-full mt-16 md:mt-30 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 md:gap-0">
           <h3 className="max-w-full md:max-w-115.25 px-2 font-semibold text-3xl md:text-5xl leading-[120%] text-[#010101]">
@@ -35,9 +36,9 @@ const After = () => {
         </div>
         <div className="mt-8 md:mt-12.5 flex flex-col items-center justify-center">
           <ServiceSlider />
-          <button className="w-42.25 h-12.5 text-center flex items-center justify-center bg-[#19AE1A] rounded-[245px] mt-7.5 text-[#FAFAFA] font-semibold text-base leading-[160%]">
-            View All Services
-          </button>
+          <Button 
+          text={'View All Services'}
+          className="w-42.25 hover:bg-[#FAFAFA] hover:border hover:border-[#19AE1A] hover:text-[#19AE1A] active:bg-[#19AE1A] active:text-white h-12.5 text-center flex items-center justify-center bg-[#19AE1A] rounded-[245px] mt-7.5 text-[#FAFAFA] font-semibold text-base leading-[160%]"/>
         </div>
 
       </div>

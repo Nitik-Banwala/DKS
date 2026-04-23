@@ -16,7 +16,6 @@ const Transformslider = () => {
         <div className="custom-butt absolute left-2 md:-left-8 xl:-left-14 top-1/2 -translate-y-1/2 z-10 w-10 h-10 md:w-12 md:h-12 xl:w-14 xl:h-14 group hover:bg-[#19AE1A] bg-[#fafafa] rounded-full flex items-center justify-center cursor-pointer shadow">
           <Icons icon={"prev"} pathClass={"group-hover:fill-[#FAFAFA]"} />
         </div>
-
         <div className="custom-butt2 absolute right-2 md:-right-8 xl:-right-14 top-1/2 -translate-y-1/2 z-10 w-10 h-10 md:w-12 md:h-12 xl:w-14 xl:h-14 group hover:bg-[#19AE1A] bg-[#fafafa] rounded-full flex items-center justify-center cursor-pointer shadow">
           <Icons icon={"next"} pathClass={"group-hover:fill-[#FAFAFA]"} />
         </div>
@@ -31,7 +30,7 @@ const Transformslider = () => {
         >
           {transformslides.map((item, index) => (
             <SwiperSlide key={index}>
-  
+
               <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
                 <div className="w-full lg:w-1/2">
                   <Image

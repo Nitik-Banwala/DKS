@@ -67,6 +67,14 @@ export const beforeslides = [
     before: "/assets/image/after.png",
     after: "/assets/image/before.png",
   },
+  {
+    before: "/assets/image/before.png",
+    after: "/assets/image/after.png",
+  },
+  {
+    before: "/assets/image/after.png",
+    after: "/assets/image/before.png",
+  },
 ];
 export const services = [
   {
