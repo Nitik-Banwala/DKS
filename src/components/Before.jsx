@@ -16,12 +16,12 @@ const Before = () => {
 
       <div
         onClick={() => (swiperRef.current?.slidePrev())}
-        className="custom-prev-btn absolute left-0 md:-left-10 top-1/2 group -translate-y-1/2 z-10 flex items-center justify-center cursor-pointer">
+        className="custom-prev-btn max-[1240px]:hidden absolute left-0 md:-left-10 top-1/2 group -translate-y-1/2 z-10 flex items-center justify-center cursor-pointer">
         <Icons icon={"prev1"} />
       </div>
       <div
         onClick={() => (swiperRef.current?.slideNext())}
-        className="custom-next-btn absolute right-0 md:-right-10 top-1/2 group -translate-y-1/2 z-10 flex items-center justify-center cursor-pointer">
+        className="custom-next-btn max-[1240px]:hidden absolute right-0 md:-right-10 top-1/2 group -translate-y-1/2 z-10 flex items-center justify-center cursor-pointer">
         <Icons icon={"next1"} />
       </div>
 
@@ -38,7 +38,7 @@ const Before = () => {
         {beforeslides.map((item, index) => (
           <SwiperSlide key={index}>
             <div
-              className={`h-60.5 sm:h-72 lg:h-84.75 relative mr-0! sm:mr-6!  ${item.before && "rounded-l-xxl"} ${item.after && "rounded-r-xxl"}  sm:rounded-xxl overflow-hidden`}
+              className={`h-30.5 sm:h-42 md:h-63 lg:h-84.75 relative mr-0! sm:mr-6!  ${item.before && "rounded-l-xxl"} ${item.after && "rounded-r-xxl"}  sm:rounded-xxl overflow-hidden`}
             >
               <Image
                 src={item.before}
@@ -47,11 +47,28 @@ const Before = () => {
                 alt={item}
                 className="rouded-2xl overflow-hidden object-cover max-h-[339.1px] w-full max-w-[558.1px] object-center"
               />
-              
+
             </div>
           </SwiperSlide>
         ))}
       </Swiper>
+      <div className="flex min-[1240px]:hidden justify-center gap-4 mt-6">
+
+        <div
+          onClick={() => swiperRef.current?.slidePrev()}
+          className="w-10 h-10 sm:w-12 sm:h-12 group border border-[#19AE1A] hover:bg-[#19AE1A] bg-white rounded-full flex items-center justify-center cursor-pointer shadow"
+        >
+          <Icons icon={"prev1"} />
+        </div>
+
+        <div
+          onClick={() => swiperRef.current?.slideNext()}
+          className="w-10 h-10 sm:w-12 sm:h-12 group border border-[#19AE1A] hover:bg-[#19AE1A] bg-white rounded-full flex items-center justify-center cursor-pointer shadow"
+        >
+          <Icons icon={"next1"} />
+        </div>
+
+      </div>
     </div>
   );
 };

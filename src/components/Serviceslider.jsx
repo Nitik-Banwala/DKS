@@ -79,10 +79,11 @@ const ServiceSlider = () => {
 
         <span
           onClick={() => swiperRef.current?.slidePrev()}
+          className="min-[1240px]:flex hidden"
         >
-         <div className="custom-butt absolute left-2 md:-left-8 xl:-left-14 top-1/2 -translate-y-1/2 z-10 w-10 h-10 md:w-12 md:h-12 xl:w-14 xl:h-14 group hover:bg-[#19AE1A] border-[#19AE1A] border bg-[#fafafa] rounded-full flex items-center justify-center cursor-pointer shadow">
-          <Icons icon={"prev"} pathClass={"group-hover:fill-[#FAFAFA]"} />
-        </div>
+          <div className="custom-butt absolute left-2 md:-left-8 xl:-left-14 top-1/2 -translate-y-1/2 z-10 w-10 h-10 md:w-12 md:h-12 xl:w-14 xl:h-14 group hover:bg-[#19AE1A] border-[#19AE1A] border bg-[#fafafa] rounded-full flex items-center justify-center cursor-pointer shadow">
+            <Icons icon={"prev"} pathClass={"group-hover:fill-[#FAFAFA]"} />
+          </div>
         </span>
 
         <Swiper
@@ -124,12 +125,13 @@ const ServiceSlider = () => {
           ))}
         </Swiper>
         <span
-      
+
           onClick={() => swiperRef.current?.slideNext()}
+          className="min-[1240px]:flex hidden"
         >
-           <div className="custom-butt2 absolute right-2 md:-right-8 xl:-right-14 top-1/2 -translate-y-1/2 z-10 w-10 h-10 md:w-12 md:h-12 xl:w-14 xl:h-14 group border-[#19AE1A] border hover:bg-[#19AE1A] bg-[#fafafa] rounded-full flex items-center justify-center cursor-pointer shadow">
-          <Icons icon={"next"} pathClass={"group-hover:fill-[#FAFAFA]"} />
-        </div>
+          <div className="custom-butt2 absolute right-2 md:-right-8 xl:-right-14 top-1/2 -translate-y-1/2 z-10 w-10 h-10 md:w-12 md:h-12 xl:w-14 xl:h-14 group border-[#19AE1A] border hover:bg-[#19AE1A] bg-[#fafafa] rounded-full flex items-center justify-center cursor-pointer shadow">
+            <Icons icon={"next"} pathClass={"group-hover:fill-[#FAFAFA]"} />
+          </div>
         </span>
       </div>
 
@@ -157,8 +159,24 @@ const ServiceSlider = () => {
           </div>
         ))}
       </div>
+      <div className=" min-[1240px]:hidden sm:flex hidden justify-center gap-4 mt-6">
 
-      
+        <div
+          onClick={() => swiperRef.current?.slidePrev()}
+          className="w-10 h-10 sm:w-12 sm:h-12 group hover:bg-[#19AE1A] border border-[#19AE1A] bg-[#fafafa] rounded-full flex items-center justify-center cursor-pointer shadow"
+        >
+          <Icons icon={"prev"} pathClass={"group-hover:fill-[#FAFAFA]"} />
+        </div>
+
+        <div
+          onClick={() => swiperRef.current?.slideNext()}
+          className="w-10 h-10 sm:w-12 sm:h-12 group hover:bg-[#19AE1A] border border-[#19AE1A] bg-[#fafafa] rounded-full flex items-center justify-center cursor-pointer shadow"
+        >
+          <Icons icon={"next"} pathClass={"group-hover:fill-[#FAFAFA]"} />
+        </div>
+
+      </div>
+
     </div>
   );
 };
