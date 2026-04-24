@@ -1,12 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import "tailwindcss";
-/* .bgimg {
-  background-image: url('/assets/image/herobg.png');
-  height: 100vh;
-  width: 100%;
-} */
- .pop{
+
+ .Poppins{
   font-family: "Poppins", sans-serif;
  }
  .inter{
@@ -18,10 +14,6 @@
   width: max-content;
   animation: marquee 20s linear infinite;
 }
-
-/* .marquee:hover {
-  animation-play-state: paused;
-} */
 
 @keyframes marquee {
   0% {
@@ -52,7 +44,7 @@
 .swiper-pagination-bullet-active {
   background: #19AE1A;
 }
-/* 🔥 FORCE override swiper styles */
+
 .swiper-pagination {
   bottom: 10px !important;
   display: flex !important;
@@ -74,4 +66,33 @@
 .swiper-pagination-bullet-active {
   background: #19AE1A !important;
   transform: scale(1.2);
+}
+@theme {
+  /* colors */
+  --color-whity: #fafafa;
+  --color-blacky: #010101;
+  --color-gray: #afafaf;
+  --color-green: #19ae1a;
+  --color-body-text: #4d4d4d;
+  --color-light-green: #20ae190f;
+  --color-grey: #dfdfdf;
+  --color-blue: #1877f2;
+  --color-cream: #faf9f5;
+
+  /* text-size */
+  --text-custom-xl: 22px;
+  --text-custom-2xl: 28px;
+  --text-custom-3xl: 32px;
+
+  /* line-height */
+  --leading-100: 100%;
+  --leading-110: 110%;
+  --leading-120: 120%;
+  --leading-130: 130%;
+  --leading-140: 140%;
+  --leading-150: 150%;
+  --leading-160: 160%;
+
+
+
 }

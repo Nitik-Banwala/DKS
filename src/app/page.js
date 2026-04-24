@@ -8,15 +8,14 @@ import Hero from '@/components/Hero'
 import Service from '@/components/Service'
 import ServiceSlider from '@/components/Serviceslider'
 import Transformations from '@/components/Transformations'
-import TrustedExperts from '@/components/TrustedExperts'
+import TrustedExperts from '@/components/Trustedexperts'
 import Works from '@/components/Works'
 import React from 'react'
 
 
 const page = () => {
   return (
-    <div>
-      <Navbar/>
+    <>
       <Hero />
       <Service/>
       <Businesses/>
@@ -26,8 +25,7 @@ const page = () => {
       <Works/>
       <Blog/>
       <TrustedExperts/>
-      <Footer/>
-    </div>
+    </>
   )
 }
 

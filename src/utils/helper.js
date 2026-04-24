@@ -1,4 +1,4 @@
-export const navLinks = [
+export const navlinks = [
     { label: 'Home', hasIcon: false },
     { label: 'About Us', hasIcon: false },
     { label: 'Services', hasIcon: true },
@@ -7,12 +7,12 @@ export const navLinks = [
     { label: 'Blog', hasIcon: false },
 ]
 export const slides = [
-    "/assets/image/autoone.png",
-    "/assets/image/autotwo.png",
-    "/assets/image/autothree.png",
-    "/assets/image/autofour.png",
-    "/assets/image/autofive.png",
-    "/assets/image/autosix.png",
+    "/assets/image/png/autoone.png",
+    "/assets/image/png/autotwo.png",
+    "/assets/image/png/autothree.png",
+    "/assets/image/png/autofour.png",
+    "/assets/image/png/autofive.png",
+    "/assets/image/png/autosix.png",
 ];
 export const sliderdata = [
     {
@@ -20,60 +20,60 @@ export const sliderdata = [
             'My sofa looks brand new! Quick, professional, and high quality work. Couldn’t be happier."  Residential Customer',
         name: "Aarav M.",
         profession: "Operations Manager",
-        image: "/assets/image/sliderone.png",
+        image: "/assets/image/png/sliderone.png",
     },
     {
         title:
             'They handled our office lounge seating perfectly. Stylish, durable, and on time!" ',
         name: "David K.",
         profession: "Facility Director",
-        image: "/assets/image/slidertwo.png",
+        image: "/assets/image/png/slidertwo.png",
     },
     {
         title:
             "Excellent service from start to finish. They helped me choose the perfect fabric, and the results are stunning!",
         name: "Rina S.",
         profession: "Sustainability Lead",
-        image: "/assets/image/sliderthree.svg",
+        image: "/assets/image/svg/sliderthree.svg",
     },
     {
         title:
             'My sofa looks brand new! Quick, professional, and high quality work. Couldn’t be happier."  Residential Customer',
         name: "Aarav M.",
         profession: "Operations Manager",
-        image: "/assets/image/sliderone.png",
+        image: "/assets/image/png/sliderone.png",
     },
     {
         title:
             'They handled our office lounge seating perfectly. Stylish, durable, and on time!" ',
         name: "David K.",
         profession: "Facility Director",
-        image: "/assets/image/slidertwo.png",
+        image: "/assets/image/png/slidertwo.png",
     },
     {
         title:
             "Excellent service from start to finish. They helped me choose the perfect fabric, and the results are stunning!",
         name: "Rina S.",
         profession: "Sustainability Lead",
-        image: "/assets/image/sliderthree.svg",
+        image: "/assets/image/svg/sliderthree.svg",
     },
 ]
 export const beforeslides = [
   {
-    before: "/assets/image/before.png",
-    after: "/assets/image/after.png",
+    before: "/assets/image/png/before.png",
+    after: "/assets/image/png/after.png",
   },
   {
-    before: "/assets/image/after.png",
-    after: "/assets/image/before.png",
+    before: "/assets/image/png/after.png",
+    after: "/assets/image/png/before.png",
   },
   {
-    before: "/assets/image/before.png",
-    after: "/assets/image/after.png",
+    before: "/assets/image/png/before.png",
+    after: "/assets/image/png/after.png",
   },
   {
-    before: "/assets/image/after.png",
-    after: "/assets/image/before.png",
+    before: "/assets/image/png/after.png",
+    after: "/assets/image/png/before.png",
   },
 ];
 export const services = [
@@ -125,25 +125,25 @@ export const services = [
 ];
 export const transformslides = [
   {
-    img: "/assets/image/slidersofe.png",
+    img: "/assets/image/png/slidersofe.png",
     title: "OUTSTANDING SERVICE!",
     desc: "My sofa looks brand new! The team was professional, quick, and the finish exceeded my expectations.",
     name: "Arjun S.",
   },
   {
-    img: "/assets/image/slidersofe.png",
+    img: "/assets/image/png/slidersofe.png",
     title: "AMAZING QUALITY!",
     desc: "Highly recommend their upholstery service. Great attention to detail.",
     name: "Rohit K.",
   },
   {
-    img: "/assets/image/slidersofe.png",
+    img: "/assets/image/png/slidersofe.png",
     title: "AMAZING QUALITY!",
     desc: "Highly recommend their upholstery service. Great attention to detail.",
     name: "Rohit K.",
   },
   {
-    img: "/assets/image/slidersofe.png",
+    img: "/assets/image/png/slidersofe.png",
     title: "AMAZING QUALITY!",
     desc: "Highly recommend their upholstery service. Great attention to detail.",
     name: "Rohit K.",
@@ -235,7 +235,7 @@ export const stepsdata = [
     title: "Send Us a Photo",
     description:
       "Upload your furniture photo via WhatsApp or our quick online form so we can understand size, condition, and fabric or leather options.",
-    image: "/assets/image/Worksone.png",
+    image: "/assets/image/png/Worksone.png",
     highlight: false,
   },
   {
@@ -243,7 +243,7 @@ export const stepsdata = [
     title: "Get a Transparent Quote",
     description:
       "We'll reply with a clear estimate based on the item and chosen material. Choose from a wide range of fabrics, leathers, and foam to fit your style and budget.",
-    image: "/assets/image/Workstwo.png",
+    image: "/assets/image/png/Workstwo.png",
     highlight: true,
   },
   {
@@ -251,13 +251,13 @@ export const stepsdata = [
     title: "Crafted & Delivered",
     description:
       "We rebuild your furniture with fresh upholstery and premium materials, then deliver it back ready for everyday use all backed by our 12 month workmanship warranty.",
-    image: "/assets/image/Worksthree.png",
+    image: "/assets/image/png/Worksthree.png",
     highlight: false,
   },
 ];
 export const blogsdata = [
   {
-    image: "/assets/image/blogone.png",
+    image: "/assets/image/png/blogone.png",
     title: "",
     description: "",
     href: "#",
@@ -270,7 +270,7 @@ export const blogsdata = [
     href: "#",
   },
   {
-    image: "/assets/image/blogtwo.png",
+    image: "/assets/image/png/blogtwo.png",
     title: "",
     description: "",
     href: "#",
@@ -287,11 +287,11 @@ export const footernavlinks = [
 ];
 
 export const footergallery = [
-  { image: "/assets/image/footerone.png", alt: "Purple sofa reupholstery" },
-  { image: "/assets/image/footertwo.png", alt: "Brown chair reupholstery" },
-  { image: "/assets/image/footerthree.png", alt: "Grey sofa reupholstery" },
-  { image: "/assets/image/footerfour.png", alt: "Red sofa reupholstery" },
-  { image: "/assets/image/footerfive.png", alt: "Beige chair reupholstery" },
-  { image: "/assets/image/footersix.png", alt: "Blue sofa reupholstery" },
+  { image: "/assets/image/png/footerone.png", alt: "Purple sofa reupholstery" },
+  { image: "/assets/image/png/footertwo.png", alt: "Brown chair reupholstery" },
+  { image: "/assets/image/png/footerthree.png", alt: "Grey sofa reupholstery" },
+  { image: "/assets/image/png/footerfour.png", alt: "Red sofa reupholstery" },
+  { image: "/assets/image/png/footerfive.png", alt: "Beige chair reupholstery" },
+  { image: "/assets/image/png/footersix.png", alt: "Blue sofa reupholstery" },
 ];
 

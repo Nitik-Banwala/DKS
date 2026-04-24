@@ -12,83 +12,122 @@ import {
 const Footer = () => {
   return (
     <footer className="bg-[#F9F8F5]">
-
-      <div className="px-4 pt-[80px] sm:pt-[100px] lg:pt-[120px]">
-        <div className="mx-auto w-full max-w-[1140px] xl:max-w-[1200px]">
-
-
+      <div className="px-4 pt-[80.1px] sm:pt-[100.1px] lg:pt-[120.1px]">
+        <div className="mx-auto w-full max-w-[1140.1px] xl:max-w-[1200.1px]">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
-
-
             <div className="lg:pr-10 border-b lg:border-b-0 lg:border-r border-[#01010129] pb-8 lg:pb-0">
 
               <Image
-                src="/assets/image/logo.png"
+                src="/assets/image/png/logo.png"
                 alt="DKS Upholstery"
                 width={160}
                 height={48}
               />
 
-              <p className="mt-4 text-sm sm:text-base text-[#4D4D4D] max-w-[450px]">
+              <p className="mt-4 text-sm sm:text-base text-body-text max-w-[450.1px]">
                 At DKS, we specialize in expert upholstery, custom furniture,
                 and repairs combining craftsmanship with care to bring new life
                 to your furniture.
               </p>
 
               <hr className="my-6 border-[#01010129]" />
-
               <div className="flex flex-col sm:flex-row gap-6">
-
-    
                 <div>
                   <div className="flex gap-2 items-start">
                     <Icons icon="location" />
                     <p className="text-sm sm:text-base">
-                      Defu Industrial Estate <br />
-                      Address: 37 Defu Lane 10, <br />
-                      #01/41, Singapore 539214
+                      <a
+                        href="https://www.google.com/maps?q=37+Defu+Lane+10+Singapore+539214"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:underline"
+                      >
+                        Defu Industrial Estate <br />
+                        Address: 37 Defu Lane 10, <br />
+                        #01/41, Singapore 539214
+                      </a>
                     </p>
                   </div>
-
- 
                   <div className="flex items-center gap-4 mt-6">
                     <span className="flex items-center gap-2 font-semibold">
                       <Icons icon="follow" /> Follow Us
                     </span>
 
                     <div className="flex gap-3">
-                      <Link href="#"><Icons icon="insta" /></Link>
-                      <Link href="#"><Icons icon="facebook" /></Link>
-                      <Link href="#"><Icons icon="linkedin" /></Link>
+                      <Link
+                        href="https://www.instagram.com/"
+                        target="_blank"
+                      >
+                        <Icons icon="insta" />
+                      </Link>
+
+                      <Link
+                        href="https://www.facebook.com/"
+                        target="_blank"
+                      >
+                        <Icons icon="facebook" />
+                      </Link>
+
+                      <Link
+                        href="https://www.linkedin.com/"
+                        target="_blank"
+                      >
+                        <Icons icon="linkedin" />
+                      </Link>
                     </div>
                   </div>
                 </div>
-
-
                 <div className="flex flex-col gap-3">
+                  {/* WhatsApp */}
                   <div className="flex items-center gap-2">
                     <Icons icon="whatsappsm" />
-                    <span className="text-sm sm:text-base">98385685, 93832006</span>
+                    <a
+                      href="https://wa.me/6598385685"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm sm:text-base hover:underline"
+                    >
+                      98385685
+                    </a>
+                    <span>,</span>
+                    <a
+                      href="https://wa.me/6593832006"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm sm:text-base hover:underline"
+                    >
+                      93832006
+                    </a>
                   </div>
                   <div className="flex items-center gap-2">
                     <Icons icon="phone" />
-                    <span className="text-sm sm:text-base">62844186</span>
+                    <a
+                      href="tel:+6562844186"
+                      className="text-sm sm:text-base hover:underline"
+                    >
+                      62844186
+                    </a>
                   </div>
+
                   <div className="flex items-center gap-2">
                     <Icons icon="mail" />
-                    <span className="text-sm sm:text-base">
+                    <a
+                      href="mailto:info@dksinternational.com"
+                      className="text-sm sm:text-base hover:underline"
+                    >
                       info@dksinternational.com
-                    </span>
+                    </a>
                   </div>
-                  <span className="text-sm sm:text-base">
-                    dks.int@live.com
-                  </span>
-                </div>
 
+                  <a
+                    href="mailto:dks.int@live.com"
+                    className="text-sm sm:text-base hover:underline"
+                  >
+                    dks.int@live.com
+                  </a>
+                </div>
               </div>
             </div>
-
-
             <div className="flex flex-col gap-6">
 
               <div className="flex flex-wrap items-center gap-y-2">
@@ -96,7 +135,7 @@ const Footer = () => {
                   <React.Fragment key={index}>
                     <Link
                       href={link.href}
-                      className="text-sm sm:text-base whitespace-nowrap hover:text-[#19AE1A]"
+                      className="text-sm sm:text-base whitespace-nowrap hover:text-green"
                     >
                       {link.label}
                     </Link>
@@ -111,13 +150,11 @@ const Footer = () => {
               </div>
 
               <hr className="border-[#01010129]" />
-
-
               <div className="flex flex-wrap gap-3">
                 {footergallery.map((item, index) => (
                   <div
                     key={index}
-                    className="w-[70px] h-[60px] sm:w-[80px] sm:h-[70px] rounded-xl overflow-hidden"
+                    className="w-[70.1px] h-[60.1px] sm:w-[80.1px] sm:h-[70.1px] rounded-xl overflow-hidden"
                   >
                     <Image
                       src={item.image}
@@ -135,34 +172,34 @@ const Footer = () => {
 
               <div className="flex flex-wrap items-center gap-y-2 text-sm sm:text-base">
 
-                <Link href="#">Reupholstery</Link>
+                <Link href="#" className="hover:text-green">Reupholstery</Link>
                 <span className="mx-2"><Icons icon="line" /></span>
 
-                <Link href="#">Covers & Cushions</Link>
+                <Link href="#" className="hover:text-green">Covers & Cushions</Link>
                 <span className="mx-2"><Icons icon="line" /></span>
 
-                <Link href="#">Foam & Filling</Link>
+                <Link href="#" className="hover:text-green">Foam & Filling</Link>
                 <span className="mx-2"><Icons icon="line" /></span>
 
-                <Link href="#">Beds & Headboards</Link>
+                <Link href="#" className="hover:text-green">Beds & Headboards</Link>
                 <span className="mx-2"><Icons icon="line" /></span>
 
-                <Link href="#">Built Ins</Link>
+                <Link href="#" className="hover:text-green">Built Ins</Link>
                 <span className="mx-2"><Icons icon="line" /></span>
 
-                <Link href="#">Custom Furniture</Link>
+                <Link href="#" className="hover:text-green">Custom Furniture</Link>
                 <span className="mx-2"><Icons icon="line" /></span>
 
-                <Link href="#">Repairs</Link>
+                <Link href="#" className="hover:text-green">Repairs</Link>
                 <span className="mx-2"><Icons icon="line" /></span>
 
-                <Link href="#">Cleaning</Link>
+                <Link href="#" className="hover:text-green">Cleaning</Link>
                 <span className="mx-2"><Icons icon="line" /></span>
 
-                <Link href="#">Revarnishing</Link>
+                <Link href="#" className="hover:text-green">Revarnishing</Link>
                 <span className="mx-2"><Icons icon="line" /></span>
 
-                <Link href="#">Terms of Service</Link>
+                <Link href="#" className="hover:text-green">Terms of Service</Link>
 
               </div>
 
@@ -171,10 +208,10 @@ const Footer = () => {
 
           <div className="mt-10 text-center">
 
-            <div className="h-px w-full bg-gradient-to-r from-transparent via-black/50 to-transparent" />
+            <div className="h-px w-full bg-linear-to-r from-transparent via-black/50 to-transparent" />
 
-            <p className="text-sm sm:text-base py-4 text-[#010101]">
-              Copyright © 2025 DKS Upholstery Pte Ltd | DKS International Supplier & Services. All Rights Reserved.
+            <p className="text-sm sm:text-base py-4 text-blacky">
+              Copyright © {new Date().getFullYear()} DKS Upholstery Pte Ltd | DKS International Supplier & Services. All Rights Reserved.
             </p>
           </div>
 

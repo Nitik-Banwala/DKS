@@ -56,14 +56,14 @@ const Before = () => {
 
         <div
           onClick={() => swiperRef.current?.slidePrev()}
-          className="w-10 h-10 sm:w-12 sm:h-12 group border border-[#19AE1A] hover:bg-[#19AE1A] bg-white rounded-full flex items-center justify-center cursor-pointer shadow"
+          className="w-10 h-10 sm:w-12 sm:h-12 group border border-green hover:bg-green bg-white rounded-full flex items-center justify-center cursor-pointer shadow"
         >
           <Icons icon={"prev1"} />
         </div>
 
         <div
           onClick={() => swiperRef.current?.slideNext()}
-          className="w-10 h-10 sm:w-12 sm:h-12 group border border-[#19AE1A] hover:bg-[#19AE1A] bg-white rounded-full flex items-center justify-center cursor-pointer shadow"
+          className="w-10 h-10 sm:w-12 sm:h-12 group border border-green hover:bg-green bg-white rounded-full flex items-center justify-center cursor-pointer shadow"
         >
           <Icons icon={"next1"} />
         </div>

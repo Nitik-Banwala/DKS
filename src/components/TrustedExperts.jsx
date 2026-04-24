@@ -6,24 +6,24 @@ const TrustedExperts = () => {
   return (
     <section className="bg-[#F9F8F5]">
       
-      <div className="bg-[url('/assets/image/Cta.png')] bg-no-repeat bg-cover bg-center">
+      <div className="bg-[url('/assets/image/png/Cta.png')] bg-no-repeat bg-cover bg-center">
 
 
-        <div className="py-[80px] sm:py-[100px] lg:py-[120px] px-4">
+        <div className="py-[80.1px] sm:py-[100.1px] lg:py-[120.1px] px-4">
 
-          <div className="mx-auto w-full max-w-[1140px] xl:max-w-[1200px] text-center">
+          <div className="mx-auto w-full max-w-[1140.1px] xl:max-w-[1200.1px] text-center">
 
-            <div className="max-w-[795px] mx-auto">
+            <div className="max-w-[795.1px] mx-auto">
 
-              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold leading-[120%] text-[#010101]">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold leading-120 text-blacky">
                 Your Trusted Upholstery{" "}
-                <span className="text-[#19AE1A]">Experts</span>
+                <span className="text-green">Experts</span>
                 <br />
-                <span className="text-[#19AE1A]">in Singapore</span>
+                <span className="text-green">in Singapore</span>
               </h2>
 
       
-              <p className="mt-4 sm:mt-6 text-sm sm:text-base leading-[160%] text-[#4D4D4D] max-w-[729px] mx-auto">
+              <p className="mt-4 sm:mt-6 text-sm sm:text-base leading-160 text-body-text max-w-[729.1px] mx-auto">
                 For over 18 years, we've perfected the art of upholstery. From
                 sofas and chairs to custom built panels and commercial projects,
                 every piece is crafted with premium materials and backed by our
@@ -34,7 +34,7 @@ const TrustedExperts = () => {
                 href="https://wa.me/6500000000"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-6 sm:mt-8 lg:mt-10 inline-flex items-center gap-3 bg-[#19AE1A] hover:bg-[#FAFAFA] hover:border hover:border-[#19AE1A] hover:text-[#19AE1A] active:bg-[#19AE1A] active:text-white duration-300 text-white font-semibold text-sm sm:text-base px-6 sm:px-8 py-3 sm:py-4 rounded-full"
+                className="mt-6 sm:mt-8 lg:mt-10 inline-flex items-center gap-3 bg-green hover:bg-whity border-transparent border hover:border-green hover:text-green active:bg-green active:text-white duration-300 text-white font-semibold text-sm sm:text-base px-6 sm:px-8 py-3 sm:py-4 rounded-full"
               >
                 <Icons icon="whatsapp" />
                 WhatsApp Us Now!

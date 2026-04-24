@@ -5,15 +5,15 @@ import Button from "./common/Button";
 
 const After = () => {
   return (
-    <div className="w-full pt-16 md:pt-30 bg-[#FAF9F5]">
+    <div className="w-full pt-16 md:pt-30 bg-cream">
       <div className="max-w-285 w-full mx-auto px-6 lg:px-0">
 
         <div className="w-full flex flex-col md:flex-row items-start md:items-center justify-between gap-4 md:gap-0">
-          <h3 className="max-w-full md:max-w-115.25 px-2 font-semibold text-3xl md:text-5xl leading-[120%] text-[#010101]">
+          <h3 className="max-w-full md:max-w-115.25 px-2 font-semibold text-3xl md:text-5xl leading-120 text-blacky">
             Before & After:
-            <span className="text-[#19AE1A]"> See the Difference </span>
+            <span className="text-green"> See the Difference </span>
           </h3>
-          <p className="max-w-full md:max-w-106.75 font-normal text-base leading-[160%] text-[#4D4D4D]">
+          <p className="max-w-full md:max-w-106.75 font-normal text-base leading-160 text-body-text">
             From worn out sofas to sleek wall panels, nothing shows our work
             better than a side by side transformation. Slide to see the
             difference for yourself.
@@ -23,13 +23,13 @@ const After = () => {
           <Before />
           <Button
           text={'See More Results'}
-           className="w-42.25 h-12.5 text-center hover:bg-[#FAFAFA] hover:border hover:border-[#19AE1A] hover:text-[#19AE1A] active:bg-[#19AE1A] active:text-white flex items-center cursor-pointer justify-center bg-[#19AE1A] rounded-[245px] mt-7.5 text-[#FAFAFA] font-semibold text-base leading-[160%]"/>
+           className="w-42.25 h-12.5 text-center hover:bg-whity hover:border hover:border-green hover:text-green active:bg-green active:text-white flex items-center cursor-pointer justify-center bg-green rounded-[245px] mt-7.5 text-whity font-semibold text-base leading-160"/>
         </div>
         <div className="w-full mt-16 md:mt-30 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 md:gap-0">
-          <h3 className="max-w-full md:max-w-115.25 px-2 font-semibold text-3xl md:text-5xl leading-[120%] text-[#010101]">
-            Pick from <span className="text-[#19AE1A]"> Our Services </span>
+          <h3 className="max-w-full md:max-w-115.25 px-2 font-semibold text-3xl md:text-5xl leading-120 text-blacky">
+            Pick from <span className="text-green"> Our Services </span>
           </h3>
-          <p className="max-w-full md:max-w-106.75 font-normal text-base leading-[160%] text-[#4D4D4D]">
+          <p className="max-w-full md:max-w-106.75 font-normal text-base leading-160 text-body-text">
             From worn out fabrics to flawless finishes, our expert craftsmanship
             turns tired furniture into pieces you'll be proud to showcase.
           </p>
@@ -38,7 +38,7 @@ const After = () => {
           <ServiceSlider />
           <Button 
           text={'View All Services'}
-          className="w-42.25 hover:bg-[#FAFAFA] hover:border hover:border-[#19AE1A] hover:text-[#19AE1A] active:bg-[#19AE1A] active:text-white h-12.5 text-center flex items-center justify-center bg-[#19AE1A] rounded-[245px] mt-7.5 text-[#FAFAFA] font-semibold text-base leading-[160%]"/>
+          className="w-42.25 hover:bg-whity hover:border hover:border-green hover:text-green active:bg-green active:text-white h-12.5 text-center flex items-center justify-center bg-green rounded-[245px] mt-7.5 text-whity font-semibold text-base leading-160"/>
         </div>
 
       </div>
