@@ -28,7 +28,7 @@ const Works = () => {
                 key={index}
                 className="mt-6 sm:mt-8 hover:bg-[#19AE1A14] duration-300 group border flex flex-col sm:flex-row gap-6 sm:gap-10 border-[#19AE1A3D] w-full max-w-[900.1px] rounded-2xl overflow-hidden"
               >
-                {/* ✅ Image */}
+
                 <div className="w-full sm:w-[260.1px] shrink-0">
                   <Image
                     src={item.image}

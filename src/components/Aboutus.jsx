@@ -6,7 +6,7 @@ const Aboutus = () => {
     return (
         <div className='bg-whity px-4 py-14 md:py-20 lg:py-25 xl:py-[120.1px] '>
             <div className='max-w-285 mx-auto flex flex-col md:flex-row justify-between'>
-                <div>
+                <div className='flex flex-col items-center md:items-start'>
                     <h2 className='max-w-[549.1px] mb-4.5 text-3xl md:text-5xl font-semibold leading-120 Poppins ' >About <span className='text-green'>Us</span></h2>
                     <div>
                         {featuresdata.map((item, index) => {

@@ -15,7 +15,7 @@ const Accordian = () => {
         <section className=" min-h-screen pb-14  lg:py-20">
             <div className="max-w-285  mx-auto flex flex-col min-[850px]:flex-row gap-16 ">
 
-                <div className="min-w-[280.1px] ">
+                <div className="min-w-[280.1px] flex flex-col items-center text-center lg:items-start lg:text-left ">
                     <h2 className="text-3xl md:text-5xl font-semibold Poppins leading-120">
                         Frequently Asked <br />
                         <span className="text-green">Questions</span>

@@ -8,7 +8,7 @@ const Transformations = () => {
    
 
 
-        <div className="mx-auto w-full bg-[#EFF5ED]  max-w-[1140.1px] xl:max-w-[1200.1px] px-4 sm:px-6 lg:px-8 xl:px-0 flex flex-col lg:flex-row justify-between gap-6 items-center text-center lg:text-left lg:items-start pt-10 lg:pt-0">
+        <div className="mx-auto w-full bg-[#EFF5ED]  max-w-[1140.1px] xl:max-w-[1200.1px] px-4 sm:px-6 lg:px-8 xl:px-0 flex flex-col md:flex-row justify-between gap-6  pl-8 lg:text-left lg:items-start pt-10 lg:pt-0">
 
           <h2 className="max-w-[549.1px] text-3xl sm:text-4xl lg:text-5xl font-semibold leading-120">
             Real Transformations,{" "}

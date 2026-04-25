@@ -8,7 +8,7 @@ const After = () => {
     <div className="w-full pt-16 md:pt-30 bg-cream">
       <div className="max-w-285 w-full mx-auto px-6 lg:px-0">
 
-        <div className="w-full flex flex-col md:flex-row items-start md:items-center justify-between gap-4 md:gap-0">
+        <div className="w-full flex flex-col text-center lg:text-left lg:flex-row items-start md:items-center justify-between gap-4 md:gap-0">
           <h3 className="max-w-full md:max-w-115.25 px-2 font-semibold text-3xl md:text-5xl leading-120 text-blacky">
             Before & After:
             <span className="text-green"> See the Difference </span>
@@ -25,7 +25,7 @@ const After = () => {
           text={'See More Results'}
            className="w-42.25 h-12.5 text-center hover:bg-whity hover:border hover:border-green hover:text-green active:bg-green active:text-white flex items-center cursor-pointer justify-center bg-green rounded-[245px] mt-7.5 text-whity font-semibold text-base leading-160"/>
         </div>
-        <div className="w-full mt-16 md:mt-30 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 md:gap-0">
+        <div className="w-full text-center md:text-start items-center mt-16 md:mt-30 flex flex-col md:flex-row lg:items-start md:items-center justify-between gap-4 md:gap-0">
           <h3 className="max-w-full md:max-w-115.25 px-2 font-semibold text-3xl md:text-5xl leading-120 text-blacky">
             Pick from <span className="text-green"> Our Services </span>
           </h3>

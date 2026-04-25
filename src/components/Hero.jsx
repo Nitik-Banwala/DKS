@@ -8,7 +8,7 @@ const Hero = () => {
         <div>
             <div className="bg-[url('/assets/image/png/herobg.webp')] pt-30 lg:pt-0 lg:px-4 w-full min-h-[861.1px] h-auto bg-center bg-cover">
                 <div className='max-w-285 flex flex-col lg:flex-row mx-auto px-6 lg:px-0'>
-                    <div className='pt-16 lg:pt-50 max-w-full lg:max-w-[431.1px]'>
+                    <div className='pt-16 lg:pt-50 max-w-full flex flex-col items-center text-center lg:items-start lg:text-left lg:max-w-[431.1px]'>
                         <p className='font-medium text-base leading-120 inter'>Highly Rated on Google</p>
                         <div className='flex flex-row mt-1.5 items-center'>
                             <Image
@@ -43,6 +43,9 @@ const Hero = () => {
                         <div className='hidden lg:block ml-63 -mt-2'>
                             <Icons icon={"string"} />
                         </div>
+                        <div className=' lg:hidden block rotate-3 mt-2 ml-20'>
+                            <Icons icon={"stringsm"}/>
+                        </div>
                     </div>
 
                     <div className='hidden lg:block mt-50 ml-9.25'>
@@ -50,6 +53,7 @@ const Hero = () => {
                     </div>
 
                     <div className='mt-10 lg:mt-25.75 lg:ml-30.5 flex justify-center lg:block relative'>
+                        <div className='max-w-[426.1px]'>
                         <Image
                             src={"/assets/image/png/sofa's.png"}
                             alt='sofa'
@@ -57,6 +61,16 @@ const Hero = () => {
                             height={609}
                             className='w-[280.1px] md:w-[350.1px] lg:w-[425.1px] h-auto'
                         />
+                         <div className='absolute -bottom-5 lg:static lg:ml-[352.1px] lg:-mt-39'>
+                            <Image
+                                src={"/assets/image/png/warranty.png"}
+                                alt='warranty'
+                                width={127}
+                                height={127}
+                                className='w-[80.1px] lg:hidden flex lg:w-[127.1px] h-auto'
+                            />
+                        </div>
+                        </div>
                         <div className='absolute bottom-0 right-0 lg:static lg:ml-[352.1px] lg:-mt-39'>
                             <Image
                                 src={"/assets/image/png/warranty.png"}
@@ -65,7 +79,7 @@ const Hero = () => {
                                 height={127}
                                 className='w-[80.1px] hidden min-[1117px]:flex lg:w-[127.1px] h-auto'
                             />
-                        </div>
+                        </div> 
                     </div>
                 </div>
 

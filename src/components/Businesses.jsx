@@ -20,7 +20,7 @@ const Businesses = () => {
         <div className="bg-[url('/assets/image/png/slider.png')]  pt-16 md:pt-30 w-full min-h-[660.1px] h-auto bg-center bg-cover overflow-hidden">
 
         
-            <div className="flex px-4 flex-col md:flex-row max-w-285 mx-auto lg:px-2 gap-4 md:gap-0 justify-between">
+            <div className="flex px-4 text-center md:text-left flex-col md:flex-row max-w-285 mx-auto lg:px-2 gap-4 md:gap-0 justify-between">
                 <h2 className="max-w-full md:max-w-[553.1px] text-3xl md:text-5xl font-semibold Poppins leading-120">
                     Loved by Singapore{" "}
                     <span className="text-green">Homes & Businesses</span>

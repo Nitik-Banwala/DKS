@@ -10,7 +10,7 @@ const Navbar = () => {
   const [activeLink, setActiveLink] = useState('Home')
   const [openDropdown, setOpenDropdown] = useState(null)
 
-  // Example dropdown data
+
   const dropdownItems = {
     Services: ["Web Design", "Development", "SEO"],
   };
